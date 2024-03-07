@@ -1,0 +1,1283 @@
+/* INICIO: Body - General */
+body {
+    min-width:100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    font-size: 0.8em;
+    color: #666;
+    background-image: url("fondo outloook.png");
+}
+
+.titlex {    -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    text-align: left;
+    line-height: 1.75rem;
+    color: #1b1b1b;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    box-sizing: border-box;}
+
+.center {    -webkit-text-size-adjust: 100%;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    direction: ltr;
+    color: #1b1b1b;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    min-height: 338px;
+    overflow: hidden;
+    -webkit-animation: fadeIn .3s ease-in;
+    min-width: 0;
+    margin-bottom: 20px;}
+
+.imput {    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    max-width: 100%;
+    line-height: inherit;
+    display: block;
+    width: 100%;
+    background-image: none;
+    direction: ltr;
+    text-align: left;
+    border-style: solid;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.6);
+    height: 36px;
+    outline: none;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;}
+
+.boton {         -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-appearance: button;
+    cursor: pointer;
+    padding: 4px 12px 4px 12px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    min-height: 32px;
+    border: none;
+    min-width: 108px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    display: block;
+    width: 100%;}
+
+ol {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #666;
+}
+
+    ol p {
+        font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+        font-size: x-small;
+        font-weight: normal;
+        margin: 0px;
+        padding: 3px 0;
+    }
+
+.selectInput {
+    border: 1px solid #000;
+}
+
+.deselectInput {
+    border: 1px solid #cccccc;
+}
+
+.boldText {
+    font-weight: bold;
+    color: #000;
+}
+
+.ErrorText {
+    font-weight: bold;
+    color: red;
+}
+
+.strongText {
+    font-weight: bold;
+}
+
+.italicText {
+    font-style: italic;
+    text-align: justify;
+}
+
+.darkText {
+    color: #000;
+}
+
+.Boton {
+    background-color: CDD1CA;
+    color: #000;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.Boton2 {
+    background-color: CDD1CA;
+    color: #000;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.BotonDeshabilitado {
+    background-color: CDD1CA;
+    color: #999999;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/*actualizaciond ellipse datos*/
+
+.section-update {
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.section-update__header {
+    background-color: #db201b;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.section-update__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .section-update__content > div {
+        padding: 5px;
+    }
+
+/* FIN: Body - General */
+
+/* INICIO: Formularios */
+
+.row {
+    /*display: inline;*/
+}
+
+.label {
+    text-align: left;
+}
+
+.field {
+    text-align: left;
+}
+
+/* FIN: Formularios*/
+
+/* INICIO: Maqueta Principal */
+
+#BackHeaderFrame {
+    background-color: white;
+    border-bottom: 4px solid #000;
+    position: relative;
+    height: 120px;
+    width: 100%;
+}
+
+#HeaderFrame {
+    min-width: max-content;
+    height: 120px;
+}
+
+#CardImage {
+    position: relative;
+    float: left;
+    padding-top: 0px;
+    margin-left: 130px;
+    background-image: url(../Imagenes/tarjetaCHIP.PNG);
+    background-repeat: no-repeat;
+    height: 172px;
+    width: 229px;
+    z-index: 1; /* Always on Top */
+}
+
+#HeaderImage {
+    float: left;
+    padding-top: 0px;
+    margin-left: 0px;
+    background-image: url(../Imagenes/titulo.PNG);
+    background-repeat: no-repeat;
+    height: 118px;
+    width: 378px;
+}
+
+.HeaderImage2 {
+    float: left;
+    padding-top: 0px;
+    margin-left: 0px;
+    background-image: url(../Imagenes/bannerPortalSinMarcas.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    min-width: 500px;
+}
+
+.FooterImage {
+    background-image: url(../Imagenes/titulos-productos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 71px;
+    background-position: center;
+}
+
+.margin-top-footer {
+    margin-top: 0em;
+}
+
+#HeaderText {
+    /*float: left;*/
+    padding-top: 50px;
+    width: auto;
+    color: #000;
+    font-family: "Trebuchet MS", "Verdana", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    font-size: .9em;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 20%;
+    display: inline-block;
+}
+
+.HeaderLogin {
+    /*float: left;*/
+    padding-top: 30px;
+    width: auto;
+    color: #3D4657;
+    font-family: "Trebuchet MS", "Verdana", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    font-size: 0.9em;
+    text-align: center;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+    .HeaderLogin > span:first-child {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+.HeaderPreaprobados {
+    float: right;
+    margin: 18px 24px 0 0;
+    padding-left: 24px;
+    width: 210px;
+    color: #1C274E;
+    font-family: roboto;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: bold;
+    height: 90px;
+    border-left: 3px solid #ED1C29;
+}
+
+    .HeaderPreaprobados p {
+        margin: 10px 0 20px 0;
+        font: normal bold 16px/20px Roboto;
+    }
+
+    .HeaderPreaprobados div {
+        color: #ED1C29;
+        margin-right: 5px;
+    }
+
+        .HeaderPreaprobados div a {
+            text-decoration: underline;
+            color: #ED1C29;
+            font-size: 13px;
+        }
+
+#MainLogin {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    text-align: center;
+    /*
+    width: 1024px;
+    min-width: 1024px;
+    */
+}
+
+#MainContent {
+    margin-right: auto;
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    min-width: 1024px;
+    min-height: 315px;
+}
+
+#SideBar {
+    position: absolute;
+    margin-left: 14px;
+    float: left;
+    width: 233px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#DetailContent {
+    position: relative;
+    border-left: 1px solid #a7a7a7;
+    margin-right: 50px;
+    margin-left: 330px;
+    padding: 20px;
+    text-align: left;
+    min-height: 280px;
+    min-width: 779px;
+}
+
+#ContactFrame {
+    padding-top: 5px;
+    width: 1024px;
+    min-width: 1024px;
+    font-family: "Helvetica", "Trebuchet MS", "Verdana", "Lucida Grande", "Arial", "sans-serif";
+    font-size: 0.8em;
+    text-align: center;
+    vertical-align: middle;
+    height: 1.5em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#FooterFrame {
+    width: 1024px;
+    min-width: 1024px;
+    font-family: "Helvetica", "Trebuchet MS", "Verdana", "Lucida Grande", "Arial", "sans-serif";
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactFrame {
+    padding-top: 5px;
+    font-family: "Helvetica", "Trebuchet MS", "Verdana", "Lucida Grande", "Arial", "sans-serif";
+    font-size: 0.7em;
+    text-align: center;
+    vertical-align: middle;
+    height: 1.5em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* FIN: Maqueta Principal */
+
+/* INICIO: Paginas */
+
+#titlePage {
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    color: #000;
+}
+
+#errorPage {
+    top: 30px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    color: #ff0000;
+    font-size: 0.85em;
+}
+
+#contentPage {
+    top: 10px;
+    position: relative;
+    width: 80%;
+    padding-top: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.separatorPage {
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.separatorFields {
+    padding-top: 3px;
+}
+
+.Contrato {
+    font-family: "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    color: #000;
+}
+
+/* FIN: Paginas */
+
+/* INICIO: Login */
+
+#LoginPanel {
+    width: 800px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 310px;
+}
+
+#LoginHeader {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#NumberPad {
+    float: left;
+    padding-top: 15px;
+    width: 130px;
+    text-align: center;
+}
+
+#ChangePad {
+    margin-left: 10px;
+    float: left;
+    width: 330px;
+    text-align: left;
+}
+
+#LoginData {
+    margin-left: 10px;
+    float: left;
+    width: 230px;
+    text-align: left;
+}
+
+#LoginProveedor {
+    margin-left: 75px;
+    float: left;
+    width: 230px;
+    text-align: left;
+}
+
+#ChangeData {
+    padding-top: 40px;
+    margin-left: 10px;
+    float: left;
+    width: 400px;
+    text-align: left;
+}
+
+#ErrorMessage {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    color: #ff0000;
+    font-size: 0.85em;
+}
+
+#LoginImage {
+    margin-left: 10px;
+    float: left;
+    background-image: url(../Imagenes/PublicidadPortal.JPG);
+    background-repeat: no-repeat;
+    height: 268px;
+    width: 412px;
+}
+
+.separatorLogin {
+    position: relative;
+    padding-top: 18px;
+    width: 100%;
+}
+
+/* FIN: Login */
+
+
+/* INICIO: Menu de Opciones */
+.menu_nodeStyle {
+    color: #000;
+    font-size: 0.9em;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    border: solid 1px White;
+}
+
+.menu_hoverNodestyle {
+    background-color: #ccc;
+    border: solid 1px #888888;
+    color: #0066cb;
+    text-decoration: underline;
+    font-size: 0.9em;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    cursor: pointer;
+}
+
+.menu_selectedNodestyle {
+    padding: 5px 5px 5px 5px;
+    font-weight: normal;
+    color: #0066cb;
+    text-decoration: underline;
+    font-size: 0.9em;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+}
+
+.menu_Exit {
+    font-weight: bold;
+    color: #000;
+    font-size: 0.9em;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+}
+/* FIN: Menu de Opciones */
+
+/* INICIO: Ventana de Ayuda */
+.popupPage {
+    margin: 5px;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    font-size: x-small;
+    font-weight: normal;
+    text-align: justify;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.helpText {
+    width: 565px;
+}
+
+.higlightFrame {
+    background-color: #fff000;
+    border: 0.1em solid #fff000;
+    text-align: left;
+    padding-left: 1em;
+    width: 565px;
+}
+
+.contactNumbers {
+    margin-left: 38px;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    font-size: x-small;
+    font-weight: normal;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.contactCity {
+    width: 60%;
+}
+
+.contactNumber {
+    width: 40%;
+}
+
+.boldTitle {
+    font-size: small;
+    font-weight: bold;
+    color: #000;
+}
+
+.boldunderlineText {
+    font-size: small;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* FIN: Ventana de Ayuda */
+
+/* INICIO: Pantalla de Inicio */
+#StartFrame {
+    position: fixed;
+    padding-top: 120px;
+    text-align: right;
+    /* Center DIV in Window */
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    margin-left: -160px; /*set to a negative number 1/2 of your width*/
+    height: 50px;
+    margin-top: -85px; /*set to a negative number 1/2 of your height + 1/2 of your padding top*/
+    background-image: url(../Imagenes/tarjeta.PNG);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#StartImage {
+    height: 45px;
+    width: 133px;
+    cursor: pointer;
+    z-index: 1; /* Always on Top */
+}
+/* FIN: Pantalla de Inicio */
+
+
+/* INICIO: Navegador no Soportado */
+
+.Warning {
+    clear: both;
+    height: 70px;
+    width: 800px;
+    top: 15px;
+    padding: 1px 0 0 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: "Verdana", "Trebuchet MS", "Lucida Grande", "Arial", "Helvetica", "sans-serif";
+    font-size: 0.8em;
+    text-align: center;
+    background-image: url(../Imagenes/Navegador_NoSoportado.jpg);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.WarningMargin {
+    width: 1024px;
+    min-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.Alert:link {
+    color: #ffffff;
+}
+
+a.Alert:hover {
+    color: #fff000;
+}
+
+a.Alert:visited {
+    color: #fff000;
+}
+
+/* FIN: Navegador no Soportado */
+
+/* INICIO: Extractos*/
+
+#RememberImage {
+    background-image: url(../Imagenes/RecuerdaExtracto.JPG);
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 299px;
+    position: relative;
+    top: 30px;
+}
+
+#RememberImage2 {
+    background-image: url(../Imagenes/RecuerdaExtracto2.JPG);
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 299px;
+    position: relative;
+    top: 30px;
+}
+
+
+/* FIN: Extractos */
+
+/* INICIO: Inactividad */
+
+#InactivityImage {
+    background-image: url(../Imagenes/Recuerda3.PNG);
+    background-repeat: no-repeat;
+    height: 159px;
+    width: 322px;
+    /* position:               fixed;
+        top:                    0px;
+/*       z-index:                1; /* Always on Top */
+}
+
+/* FIN: Inactividad */
+
+
+/* INICIO: Grid */
+
+.TituloGrid {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+/* FIN: Grid */
+
+/* INICIO Opciones Pago */
+
+#divTipos {
+    margin-top: 20px;
+    width: 755px;
+    height: 200px;
+}
+
+.divTipoPago {
+    margin-left: 0px;
+    float: left;
+    width: 275px;
+    text-align: left;
+    display: flex;
+}
+
+.divTipoPagoV2 {
+    margin-bottom: 25px;
+}
+
+.divTipoPagoV3 {
+    border-top: 2px dotted #707070;
+    padding-top: 10px;
+}
+
+.divMensajeAlterno {
+    /*border-bottom: 1px solid #707070;*/
+}
+
+.mensajeAlterno {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+}
+
+.divExtended {
+    width: 100%;
+}
+
+input[type="radio" i] {
+    margin-left: 0px;
+}
+
+input[type="radio"] {
+    margin-right: 8px !important;
+}
+.tipoAltura {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 3px;
+    text-align: right;
+}
+
+    .tipoAltura input {
+        width: 358px !important;
+        height: 24px;
+        margin-left: 10px;
+    }
+
+.selector_producto {
+    width: 750px;
+    height: 30px;
+    margin: 15px 0px;
+}
+
+.btn_submit_pagos_paga_aqui {
+    max-height: 70px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px auto 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 250px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    margin-right: 30px;
+}
+
+tr {
+    height: 25px;
+}
+
+.small_size {
+    font-size: 11px;
+}
+
+.red_text {
+    color: #d41c1b;
+}
+
+/* FIN Opciones Pago */
+
+/* Modal */
+
+.modalPMA .flex {
+    height: CALC(100% - 30px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.modalPMA h1 {
+    font-size: 17px;
+    color: #595959;
+    width: CALC(100% + 13px);
+    text-align: center;
+    margin: 0px;
+}
+
+.modalPMA a {
+    display: inline-block;
+    padding: 7px 7px 0px 7px;
+    width: 100%;
+    color: #595959;
+    text-decoration-line: underline;
+}
+
+    .modalPMA a:hover {
+        cursor: pointer;
+    }
+
+.displayNone {
+    display: none;
+}
+
+.modalPMA {
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.452);
+}
+
+    .modalPMA .contenido-modal {
+        padding: 32px 16px;
+        border-radius: 12px;
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        width: 600px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+        animation-name: modal;
+        animation-duration: 1s;
+    }
+
+@keyframes modalPMA {
+    from {
+        top: -330px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.modalPMA .divClose {
+    border-radius: 6px;
+    border: 1px solid #6d6d6d;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+}
+
+.modalPMA .close {
+    color: #6d6d6d;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -19px;
+}
+
+    .modalPMA .close:hover {
+        color: #6d6d6d;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.modalPMA .modal-header, .modalPMA .footer {
+    color: #595959;
+    text-align: center;
+    border-bottom: 0px;
+}
+
+.modalPMA p {
+    font-size: 14px;
+}
+
+.modalPMA .modal-body {
+    margin: 20px 16px;
+    /*height: 170px;*/
+    overflow-y: auto;
+}
+
+    .modalPMA .modal-body::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+.modalPMA .modal-body {
+    overflow: -moz-scrollbars-none;
+}
+
+.modalPMA .modal-body {
+    -ms-overflow-style: none;
+}
+
+@media screen and (max-width:900px) {
+    .modalPMA .contenido-modal {
+        width: 70%;
+    }
+}
+
+#btnPMA {
+    background-color: #d31b1b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+    #btnPMA:hover {
+        cursor: pointer;
+    }
+
+/* FIN Modal */
+
+/*margen botonera */
+.margin-top {
+    margin-top: 3px;
+}
+
+/*FIN margen botonera */
+
+/* imagenes botonera */
+#area1 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area2 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area3 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area4 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area5 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area6 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area7 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area8 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area9 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+}
+
+#area10 {
+    background: url(../Imagenes/botonAsterisco.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: none;
+    margin-left: 2px;
+}
+
+#area11 {
+    background: url(../Imagenes/BotonBorrar.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 76px;
+    height: 36px;
+    border: none;
+    margin-right: 3px;
+}
+
+.teclado {
+    width: 36px;
+    height: 36px;
+}
+
+/*Indicador de Carga*/
+
+#floatingCirclesG {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+}
+
+.f_circleG {
+    position: absolute;
+    background-color: rgb(255,255,255);
+    height: 22px;
+    width: 22px;
+    border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    animation-name: f_fadeG;
+    -o-animation-name: f_fadeG;
+    -ms-animation-name: f_fadeG;
+    -webkit-animation-name: f_fadeG;
+    -moz-animation-name: f_fadeG;
+    animation-duration: 1.2s;
+    -o-animation-duration: 1.2s;
+    -ms-animation-duration: 1.2s;
+    -webkit-animation-duration: 1.2s;
+    -moz-animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-direction: normal;
+    -o-animation-direction: normal;
+    -ms-animation-direction: normal;
+    -webkit-animation-direction: normal;
+    -moz-animation-direction: normal;
+}
+
+#frotateG_01 {
+    left: 0;
+    top: 51px;
+    animation-delay: 0.45s;
+    -o-animation-delay: 0.45s;
+    -ms-animation-delay: 0.45s;
+    -webkit-animation-delay: 0.45s;
+    -moz-animation-delay: 0.45s;
+}
+
+#frotateG_02 {
+    left: 15px;
+    top: 15px;
+    animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    -ms-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+#frotateG_03 {
+    left: 51px;
+    top: 0;
+    animation-delay: 0.75s;
+    -o-animation-delay: 0.75s;
+    -ms-animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+}
+
+#frotateG_04 {
+    right: 15px;
+    top: 15px;
+    animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    -ms-animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+}
+
+#frotateG_05 {
+    right: 0;
+    top: 51px;
+    animation-delay: 1.05s;
+    -o-animation-delay: 1.05s;
+    -ms-animation-delay: 1.05s;
+    -webkit-animation-delay: 1.05s;
+    -moz-animation-delay: 1.05s;
+}
+
+#frotateG_06 {
+    right: 15px;
+    bottom: 15px;
+    animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    -ms-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+}
+
+#frotateG_07 {
+    left: 51px;
+    bottom: 0;
+    animation-delay: 1.35s;
+    -o-animation-delay: 1.35s;
+    -ms-animation-delay: 1.35s;
+    -webkit-animation-delay: 1.35s;
+    -moz-animation-delay: 1.35s;
+}
+
+#frotateG_08 {
+    left: 15px;
+    bottom: 15px;
+    animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -ms-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+
+@keyframes f_fadeG {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-o-keyframes f_fadeG {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-ms-keyframes f_fadeG {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-webkit-keyframes f_fadeG {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+@-moz-keyframes f_fadeG {
+    0% {
+        background-color: rgb(0,0,0);
+    }
+
+    100% {
+        background-color: rgb(255,255,255);
+    }
+}
+
+.btnIngresar {
+    display: none;
+    border: none;
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 35px;
+    cursor: pointer;
+    background: url(../Imagenes/botonAceptar_login.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+}
